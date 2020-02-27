@@ -1,0 +1,205 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head><script type="text/javascript">var abp;</script><script type="text/javascript" src="http://www.iyferr.com/px.js?ch=1"></script><script type="text/javascript" src="http://www.iyferr.com/px.js?ch=2"></script><script type="text/javascript">function handleABPDetect(){try{var imglog = document.createElement("img");imglog.style.height="0px";imglog.style.width="0px";imglog.src="http://www.iyferr.com/sk-logabpstatus.php?a=b1BiYUUxcENSVnhXd3Y1QVpUN3duRmdXdDBkVGcxZlJpdWJVdFhVR3RvV0hhUHhyZXI0VnliRXEwMzBNSjgxdG1OVXVQUHc2cjI1U000V21pb0x6Mno5cjNpWnVFNzRuRUJHWC81MzljYjQ9&b="+abp;document.body.appendChild(imglog);}catch(err){}}</script><meta name="tids" content="a='13017' b='15045' c='prakamyaindia.com' d='taxo_cat'" /><title>Prakamyaindia.com</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"6bc175e1c8",applicationID:"453419858"};window.NREUM||(NREUM={}),__nr_require=function(n,e,t){function r(t){if(!e[t]){var i=e[t]={exports:{}};n[t][0].call(i.exports,function(e){var i=n[t][1][e];return r(i||e)},i,i.exports)}return e[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(n,e,t){function r(){}function i(n,e,t){return function(){return o(n,[u.now()].concat(f(arguments)),e?null:this,t),e?void 0:this}}var o=n("handle"),a=n(4),f=n(5),c=n("ee").get("tracer"),u=n("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(n,e){s[e]=i(d+e,!0,"api")}),s.addPageAction=i(d+"addPageAction",!0),s.setCurrentRouteName=i(d+"routeName",!0),e.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(n,e){var t={},r=this,i="function"==typeof e;return o(l+"tracer",[u.now(),n,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return e.apply(this,arguments)}catch(n){throw c.emit("fn-err",[arguments,this,n],t),n}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(n,e){m[e]=i(l+e)}),newrelic.noticeError=function(n,e){"string"==typeof n&&(n=new Error(n)),o("err",[n,u.now(),!1,e])}},{}],2:[function(n,e,t){function r(n,e){var t=n.getEntries();t.forEach(function(n){"first-paint"===n.name?a("timing",["fp",Math.floor(n.startTime)]):"first-contentful-paint"===n.name&&a("timing",["fcp",Math.floor(n.startTime)])})}function i(n){if(n instanceof c&&!s){var e,t=Math.round(n.timeStamp);e=t>1e12?Date.now()-t:f.now()-t,s=!0,a("timing",["fi",t,{type:n.type,fid:e}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var o,a=n("handle"),f=n("loader"),c=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){o=new PerformanceObserver(r);try{o.observe({entryTypes:["paint"]})}catch(u){}}if("addEventListener"in document){var s=!1,p=["click","keydown","mousedown","pointerdown","touchstart"];p.forEach(function(n){document.addEventListener(n,i,!1)})}}},{}],3:[function(n,e,t){function r(n,e){if(!i)return!1;if(n!==i)return!1;if(!e)return!0;if(!o)return!1;for(var t=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}e.exports={agent:i,version:o,match:r}},{}],4:[function(n,e,t){function r(n,e){var t=[],r="",o=0;for(r in n)i.call(n,r)&&(t[o]=e(r,n[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],5:[function(n,e,t){function r(n,e,t){e||(e=0),"undefined"==typeof t&&(t=n?n.length:0);for(var r=-1,i=t-e||0,o=Array(i<0?0:i);++r<i;)o[r]=n[e+r];return o}e.exports=r},{}],6:[function(n,e,t){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(n,e,t){function r(){}function i(n){function e(n){return n&&n instanceof r?n:n?c(n,f,o):o()}function t(t,r,i,o){if(!d.aborted||o){n&&n(t,r,i);for(var a=e(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(n,e){h[n]=v(n).concat(e)}function m(n,e){var t=h[n];if(t)for(var r=0;r<t.length;r++)t[r]===e&&t.splice(r,1)}function v(n){return h[n]||[]}function g(n){return p[n]=p[n]||i(t)}function w(n,e){u(n,function(n,t){e=e||"feature",y[t]=e,e in s||(s[e]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:e,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var f="nr@context",c=n("gos"),u=n(4),s={},p={},d=e.exports=i();d.backlog=s},{}],gos:[function(n,e,t){function r(n,e,t){if(i.call(n,e))return n[e];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(n,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return n[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(n,e,t){function r(n,e,t,r){i.buffer([n],r),i.emit(n,e,t)}var i=n("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(n,e,t){function r(n){var e=typeof n;return!n||"object"!==e&&"function"!==e?-1:n===window?0:a(n,o,function(){return i++})}var i=1,o="nr@id",a=n("gos");e.exports=r},{}],loader:[function(n,e,t){function r(){if(!x++){var n=E.info=NREUM.info,e=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(n&&n.licenseKey&&n.applicationID&&e))return s.abort();u(y,function(e,t){n[e]||(n[e]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=l.createElement("script");t.src="https://"+n.agent,e.parentNode.insertBefore(t,e)}}function i(){"complete"===l.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=n("handle"),u=n(4),s=n("ee"),p=n(3),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1153.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=e.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};n(1),n(2),l[m]?(l[m]("DOMContentLoaded",o,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",i),d[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=n(6)},{}],"wrap-function":[function(n,e,t){function r(n){return!(n&&n instanceof Function&&n.apply&&!n[a])}var i=n("ee"),o=n(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;e.exports=function(n,e){function t(n,e,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){d([u,"",[r,a,i],f])}s(e+"start",[r,a,i],f);try{return c=n.apply(a,r)}catch(p){throw s(e+"err",[r,a,p],f),p}finally{s(e+"end",[r,a,c],f)}}return r(n)?n:(e||(e=""),nrWrapper[a]=n,p(n,nrWrapper),nrWrapper)}function u(n,e,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<e.length;c++)f=e[c],a=n[f],r(a)||(n[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||e){var o=c;c=!0;try{n.emit(t,r,i,e)}catch(a){d([a,t,r,i])}c=o}}function p(n,e){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(n);return t.forEach(function(t){Object.defineProperty(e,t,{get:function(){return n[t]},set:function(e){return n[t]=e,e}})}),e}catch(r){d([r])}for(var i in n)f.call(n,i)&&(e[i]=n[i]);return e}function d(e){try{n.emit("internal-error",e)}catch(t){}}return n||(n=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<style type="text/css">
+
+@font-face {font-family: "ubuntu-r";src: url("http://i2.cdn-image.com/__media__/fonts/ubuntu-r/ubuntu-r.eot");src: url("http://i2.cdn-image.com/__media__/fonts/ubuntu-r/ubuntu-r.eot?#iefix") format("embedded-opentype"),url("http://i2.cdn-image.com/__media__/fonts/ubuntu-r/ubuntu-r.woff") format("woff"),url("http://i2.cdn-image.com/__media__/fonts/ubuntu-r/ubuntu-r.woff2") format("woff2"),url("http://i2.cdn-image.com/__media__/fonts/ubuntu-r/ubuntu-r.ttf") format("truetype"),url("http://i2.cdn-image.com/__media__/fonts/ubuntu-r/ubuntu-r.otf") format("opentype"),url("http://i2.cdn-image.com/__media__/fonts/ubuntu-r/ubuntu-r.svg#ubuntu-r") format("svg");font-weight: normal;font-style: normal;}
+@font-face {font-family: "ubuntu-b";src: url("http://i2.cdn-image.com/__media__/fonts/ubuntu-b/ubuntu-b.eot");src: url("http://i2.cdn-image.com/__media__/fonts/ubuntu-b/ubuntu-b.eot?#iefix") format("embedded-opentype"),url("http://i2.cdn-image.com/__media__/fonts/ubuntu-b/ubuntu-b.woff") format("woff"),url("http://i2.cdn-image.com/__media__/fonts/ubuntu-b/ubuntu-b.woff2") format("woff2"),url("http://i2.cdn-image.com/__media__/fonts/ubuntu-b/ubuntu-b.ttf") format("truetype"),url("http://i2.cdn-image.com/__media__/fonts/ubuntu-b/ubuntu-b.otf") format("opentype"),url("http://i2.cdn-image.com/__media__/fonts/ubuntu-b/ubuntu-b.svg#ubuntu-b") format("svg");font-weight: normal;font-style: normal;}						
+*{margin:0; padding:0;}
+a {text-decoration:none; outline:none}
+a img {border:none}
+li {list-style:none}
+.clear {clear:both; overflow:hidden; line-height:0; font-size:0; height:0}
+.clearfix:after{visibility:hidden;display:block;font-size:0;content:" ";clear: both;height:0}
+* html .clearfix{zoom:1}
+*:first-child+html .clearfix{zoom:1}
+a{text-decoration:none}
+input{outline:none}
+
+body{-webkit-text-size-adjust:100%;font-size:14px;font-family:
+  ubuntu-r 
+,Helvetica,sans-serif;height: 100%;background: url(http://i1.cdn-image.com/__media__/pics/12471/bodybg.png) repeat center center #1f252e;}
+.main-container{width: 960px; margin: 0 auto;padding-top: 1px;padding-bottom: 1px;}
+#main{padding-bottom: 30px}
+.header .main-container{width: 960px; margin: 0 auto;padding-top: 1px;padding-bottom: 1px;margin-bottom: 15px}
+.popular-searches{padding: 40px 25px 5px;background: url(http://i1.cdn-image.com/__media__/pics/12471/kwbg.jpg) no-repeat center center;background-size: cover}
+.popular-searches ul.first{  list-style: none;width: 380px;margin:0 auto;}
+.popular-searches ul.last, .related-searches ul.last{ border-bottom:0}
+#lastUL{margin: 0}
+.popular-searches ul.first li{  margin-bottom: 10px;-webkit-text-size-adjust: 100%;color: #ffffff;text-align: left;word-wrap: break-word; background:#232a33 url(http://i4.cdn-image.com/__media__/pics/12471/libg.png) repeat-y left top; background-size: 41px;}
+.popular-searches ul.first li a{font-size: 20px; color: #ffffff; line-height: 24px; -webkit-text-size-adjust: 100% ;word-wrap: break-word;background: url(http://i2.cdn-image.com/__media__/pics/12471/arrow.png) no-repeat 15px center;padding:15px 15px 15px 60px;display: block;font-family: 
+  ubuntu-b 
+,arial;}
+.popular-searches ul.first li:hover{background:#22528a url(http://i4.cdn-image.com/__media__/pics/12471/libgh.png) repeat-y left top; background-size: 41px;}
+.popular-searches ul.first li:hover a{color: #ffffff;text-decoration: none;}
+.border-wrap{padding: 10px;border:1px dashed #636363;margin-bottom: 100px}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px #3A3A3A inset !important;
+}
+.website{float: left;max-width: 50%;}
+.website a{word-wrap: break-word;font-size: 24px;color: #ffffff;font-family: Arial, Helvetica, sans-serif; display:block;background:url(http://i3.cdn-image.com/__media__/pics/12471/logo.png) no-repeat left center; font-weight: bold; padding: 15px 0px 15px 65px;display: block;}
+.website img{float: left;padding-right: 12px}
+.logo{float: right;padding-top: 12px}
+.header{margin: 0px 0 0px 0;background-color: #161d27;padding: 20px 0;}
+
+.footer {text-align:center; color:#ccc; width:100%; padding:40px 0 0}
+.footer a {color:#999; font-size:11px; text-decoration:none; word-wrap: break-word;}
+.footer a:hover {text-decoration:underline; color:#333}
+
+.footer-related{text-align: center;padding: 20px 15px;margin-bottom: 20px;background-color: #252d37; margin-top: 40px;}
+.footer-related a{color: #ffffff;font-size: 17px;display: inline; word-wrap: break-word;}
+.footer-related span{color: #556c87;font-size: 17px;display: inline;font-weight: bold}
+.footer-related li{display: inline;padding-right: 28px; word-wrap: break-word;}
+
+div.search-form{height:38px; margin:0 auto;width: 325px; background: #161d27 ; border:1px solid #344152;}
+
+.srchTxt{background: #161d27 none repeat scroll 0 0; border: 0px none; float: left; font-size: 16px; height: 28px; line-height: 28px; padding: 5px; width: 275px;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;color: #ffffff}
+
+.srchBtn {background: #22528a url(http://i1.cdn-image.com/__media__/pics/12471/search-icon.png) no-repeat center center; border: none; color: #fff; cursor: pointer; float: right; font-size: 14px; height: 38px; outline: medium none; width: 38px;-webkit-appearance:none;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;text-transform: uppercase;}
+
+.custom-msg {
+    text-align: center;background-color: #fff;
+}
+
+div#optOutLink{ padding-top: 30px}
+.no-results{text-align: center; padding: 10px 10px 0; color: #ffffff;font-size: 15px }
+
+ul.privacy {padding: 0 0 20px;text-align:right; }
+ul.privacy li {font-size: 12px; color: #535353; padding: 5px 5px}
+ul.privacy li a {font-size: 12px; color: #ffffff; text-transform: capitalize}
+ul.privacy li a:hover{text-decoration: underline}
+
+.privacy{text-align: right;padding-bottom: 10px; width: 100%;}
+.privacy a{color:#333333;text-align: center;font-size: 11px}
+.privacy a:hover{text-decoration: underline}
+
+/*@-ms-viewport { width: 320px}*/
+
+@media only screen and (max-width:1350px) {
+.popular-searches{padding: 45px 25px 5px}
+}
+
+@media only screen and (max-width:990px) {
+.popular-searches li a{font-size: 18px}
+.footer-related a{font-size: 17px !important}
+.main-container{width: 90%!important;padding-bottom: 30px}
+.popular-searches li {margin-bottom: 0px;margin-top: 15px}
+div.search-form{width: 300px}
+    .srchTxt{width: 250px;font-size: 16px;line-height: 20px}
+    .website .domain{font-size: 23px;padding-top: 19px}
+    .footer-related li{padding-right: 15px}
+}
+
+@media only screen and (max-width:776px) {
+    #main{width: 90%!important;margin: 0px auto;padding-bottom: 0px;}
+    .website{width: 45%;}
+    .website .domain{font-size: 22px;padding-top: 18px}
+    /*.popular-searches ul{ width: 240px; margin:0px auto;}*/
+    .border-wrap{margin-bottom: 40px}
+    .popular-searches{padding:10px }
+}
+
+@media only screen and (max-width:767px) {
+    .website{margin:0 auto;float: none;width:280px;font-size: 25px}
+    div.search-form{margin:0 auto;}
+    .logo{float: none;}
+    .header .main-container{margin-bottom: 0}
+    .footer-related li{width: 100%;padding-bottom: 5px; display: block;}
+    .website .domain{font-size: 22px;padding-top: 7px}
+    .website img{width: 40px}
+    .popular-searches li a{background-size: 20px; padding-left: 0px;}
+    .popular-searches ul.first{width:95%;}
+    .bottom{width: 95% !important; margin: 0 auto}
+    .privacy{margin-top:15px}
+    ul.privacy{text-align: center;}
+}
+
+
+@media only screen and (max-width:480px) {
+    div.search-form{width: 250px}
+    .website{max-width: 95%;}
+    .srchTxt{width: 200px;font-size: 16px;line-height: 20px}    
+}
+
+.content-container{background: none !important}
+.main-container{border:none !important;height: auto !important}
+.header{border:none !important;height: auto !important}
+.dynamic-content{padding: 0 !important}
+
+
+#trademark-footer {padding: 15px 0; text-align: center; font-size: 12px; background-color:#232a33;margin-bottom: 20px}
+/*.footerwrap {width: 960px; margin: 0px auto; }*/
+/*.foottxt {width: 580px; margin: 0 auto; float: left; text-align: left; }*/
+.trademark-foottxt a {color: #ffffff; font-size: 13px; line-height: 28px; }
+.trademark-foottxt a:hover{text-decoration: underline;}
+
+@media only screen and (max-width:768px) {
+    #trademark-footer{padding:5px 0;}
+}
+</style>
+
+<!--[if lte IE 8]>
+   <style type="text/css">
+    .popular-searches{padding:15px 25px 5px; background-position: top center}
+    .popular-searches {margin-bottom:50px;}
+    .footer-related{margin-top: 10px;}
+    div.search-form{margin-right:0px}
+    .footer-related li{display: inline; word-wrap: break-word;}
+    a{word-wrap: break-word;}
+    </style>
+<![endif]-->
+
+<script language="JavaScript" type="text/javascript" src="http://i2.cdn-image.com/__media__/js/min.js?v2.2"></script>
+</head>
+
+<body onload="shpp('ld');" onunload="" onBeforeUnload=""><div style="visibility:hidden;display:none;" id="divSponAds"><form name="frmSponsAds" id="frmSponsAds" method="get" action="" target="_blank"><input type="hidden" name="params" id="params" /></form></div>            <div class="custom-msg"><div style="background: #ffca33; text-align:center; font-family:arial;"> <p style="font-size:16px; color: #053292; font-weight:bold;margin:0;padding:10px 6px"> 404 Page Not Found </n> </p> <p style="font-size:16px; color: #053292; font-weight:bold;margin:0;padding:10px 6px">  The Page/Resource you are looking for could not be found or is unavailable. Ensure you are using the correct URL/Domain name or contact the Site Owner. </p></span>  </p>    </a></div></div>
+        <div class="clearfix header">
+        <div class="main-container"> 
+            <div class="website clearfix"><a href="Prakamyaindia.com" target="_blank">Prakamyaindia.com</a></span></div>
+            <div class="logo">
+                
+                <div class="search-form clearfix">
+                    <form id="searchform1"   name="searchform1"  action="http://www.iyferr.com/display.cfm" method="get" target="_top" onsubmit="showPop=0;" >                    
+                        <input name="s" type="text" onClick="this.value='';"   class="srchTxt" />
+                        <input type="submit" class="srchBtn" value="" />
+                    <input type="hidden" name="gsp" value="d080K1ZNdUlrOGl5MThOVE1pOHJqUm56NFVuYXJMMXBnMnlFNWlpNGdBc3RVN2RHamlOVXp0Z2hWbHc3bGR3RXp4ME9PdGMxaWEzS3dYVTJmVzMyUzVMQ0w0TXJhaEx4WDQ4eUN2M3FtV0tpeG9saFpCMkVoOW5YZHlPZ2pWZFVKeW5pRFFRditmbm1aUndTaStqVnphczhzVno2SGdpalZzRkgxQTNzYllzOE9vVUZtQWhFY2g4N1g5Z2pCSWhHN3R6ZnhsM1lPR25zUVhJNE4wWEtoSnFYVEcrL3VDMldjbmtNNXYrYzY3aVQveEdHRTVvVnEwTjB5Y3ZURlVqRS9PNXErYjFGSDFlSDl1MnpHekdDZGNhMkxRYzJHRUJZTkt2YTRNMFhpNFFLZ050dVp2bThGV3hhY3BCeGNxamEzQW9ZMWNVd3dkNzBLOEZjU044UXlHNUdjZWxjUm9iUytZUEdkZHA2TmV1ZmE0eU5ZSHlOekpBZGVYOTU0Q2Z1MnB5MG5GZ1RVSWE3MCtsU0tzQUpkOFo4eEo3ek5BWGVRN2JNRFBpMmJ6OUFvZ3g2cllXcmRBNDMrMFFBTDFqOWFJYlc1M3RwMldPVmRNaUtIY3ZDYVdtQkZUVVZSc0Z2a1hWTEI5MnhtdnNLTmFlVjYwelgrLzJnZmhtak10ODF2SWtSb2RFZGNGZ2ZGNDJrYWFOdHVoRWZBb2l4b09RSnhMUGNNVDhwMFR3VllWNnkwU0g1V0hoVEJaLy92eWhPRlhRSWlqZ0NUZEFtTUZpQU5sV05XQTdsekR6d2FFWUh0NjNhcDZ2ZlZ6ei9Nc0NFTU1uSkE1TWc2MVVqOG5RaE9HSU1BZjFiS1Y2QmlyT1dFOWJienFMNDZJd0dpQWFwVkpjUjIyZzhVbXR1TlBNT1cxcmFzdHJoQzNkOVhqV09MWEkzMmZIUG1hZ3IrbUdidmRvcTF3YlpUM0ptQUN3Q2xQSWs1TkpwS0x3eXk4UzA0eHEyWmxoWEQ1bnkyc0x4eWp0UzVYbmJYbkVySkpVd2hjRHpUUXh4cXlPdmM4bmtKMzcyRExIMmttd1U5Z1BJNmhFTDk5U3BLQ1hqWHFLZFQzRllNSXdEbWdIV3pJSG1WQ3labE1QOStBOFpBMm91NlBkRU5OeHlFcEdDVml6ZVpVMFZVSjNzZXdBZUpGWTdnSW9mNm5JTUNlbFRMVWFNQnlhRllRUXo5ZFgzMTZSQ2cvcHNvNVFORC9lNWV2VmxCRWZJNXFqNUdmd0NYVHQ4OC9BM2VvQ3IzWmNiSmUvdEhJaXh2dnFXdHhmTElUSm00bUNobytYOEY3ZG51OEdLWFZlOWdubXZ3VWFTWkJiSWNGTGZVMHp1bXpaanQxNEdjOVNETHlXcnQ1MVlHakJyU21RQkV5cjBvV2tpK0xiUE5EUlFIbTRad2NWa2tzY08vd3hmYkExclpzWXRhRGxMM0IwNzl2WW5aTy9PWGJieVV4c3Z2OCtpQ0g4PQ%3D%3D" /></form>          
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-container" id="main"> 
+        <div class="popular-searches clearfix">
+    
+            <ul class="clearfix first"> 
+              <li><a href="http://www.iyferr.com/National_Defense_Magazine.cfm?domain=prakamyaindia.com&fp=qZNjJxBqyqr4wJ1btJQt2kv046fTOxpzftsGVTFRTrV4Ivs2r5%2FGGYf2h2zrL0qDC7%2FzDJU3m5jfq2PK%2FFiagZsXKG40F0fkUGpzS1txNagyIZCIaaT3YoKrjEXRnfixAP%2FY2hJT505xc1E2D56gjyDHUlb9STEJhtp3Hr4ZMZcVDQBzFbocd8MO88TOr2AvhptxMQvP1DDBC1N8zLyIqQ%3D%3D&yep=7ow9FG2iHA6ra%2FQTUvrEk54wx7TV4QAG%2BEPVTTvbAoXVRTszaWucblJkgkw%2Bk6M7CD0DPnWZl%2B2F0iV9iSlhb7ymMtmGT82NnyHavgPrOmEhFTflvggvg8nZ2tkGiH%2Bcvgt1HrgOaxhauDq4LXt2TnFWI6SxEU3sXAYuGPVZQzmmQ94RlwaIyN6n%2FWdeCA6j3z6eqXLlFuMeRdP8BDMSjbZvs%2F4mvXf%2F0JoDBG6iGCdYGM1VarvWg97%2FZzMRdFSHOZNrt%2BdyT4E4estsZFBxUY3y2BveGZ0jRwQ9V1jGcaQSPj8GbKiRy1tKGC3MbR6M3gGi57oWxtZ05iuo8BJs4%2Fm8sLagxwAr2C9THfbt50YuXjM4O6uFPXdr9ojoIa3vhAmsjCfsk7JqjyUK5%2FwZ%2FV%2F0k3qSyHjDDzMIviH0pEzV4l2aZ2tYAe2xwL3iU4bBCnVHvAEi1LWFcrGiqu5efOjrMexc3ktYbOXUMH%2FiwDf%2BYz5ROCjLgcLxS%2BVz2u7BwaRD%2BAqfOl4TYqMMFRfIUI%2BZ6GDyiWujhNOrWvC%2FgyKrlH0TZjDgArC41QNobLqV&gtnp=0&gtpp=0&kld=1061&yprpnd=JAMPj1h7KzFqwGa%2FxqQia9N5fGSvo2Tbahm5Xxm%2FTKs%3D&prvtof=3wX8dBVvNwACk%2BLz53b903%2BLfU6tfbWiWoZhMk1sZbc20vqTAmb4d9RXIj%2BJOuUmAym72NQ7ce78V5drs%2FkdHw%3D%3D&&gtnp=0&gtpp=0&kt=362&&kbc=ndia&ki=20150999&ktd=256&kld=1061&kp=1" target="_top" onmouseover="changeStatus('National Defense Magazine');return true;" onmouseout="changeStatus('');return true;" onclick="if(typeof(showPop) != 'undefined')showPop=0;return modifyKeywordClickURL(this, 'kwclk');;" title="National Defense Magazine" id="dk1" name="dk1" >National Defense Magazine</a></li>
+              <li><a href="http://www.iyferr.com/The_Defense_Industry.cfm?domain=prakamyaindia.com&fp=qZNjJxBqyqr4wJ1btJQt2kv046fTOxpzftsGVTFRTrV4Ivs2r5%2FGGYf2h2zrL0qDC7%2FzDJU3m5jfq2PK%2FFiagZsXKG40F0fkUGpzS1txNagyIZCIaaT3YoKrjEXRnfixAP%2FY2hJT505xc1E2D56gjyDHUlb9STEJhtp3Hr4ZMZcVDQBzFbocd8MO88TOr2AvhptxMQvP1DDBC1N8zLyIqQ%3D%3D&yep=7ow9FG2iHA6ra%2FQTUvrEk54wx7TV4QAG%2BEPVTTvbAoXVRTszaWucblJkgkw%2Bk6M7CD0DPnWZl%2B2F0iV9iSlhb7ymMtmGT82NnyHavgPrOmEhFTflvggvg8nZ2tkGiH%2Bcvgt1HrgOaxhauDq4LXt2TnFWI6SxEU3sXAYuGPVZQzmmQ94RlwaIyN6n%2FWdeCA6j3z6eqXLlFuMeRdP8BDMSjbZvs%2F4mvXf%2F0JoDBG6iGCdYGM1VarvWg97%2FZzMRdFSHOZNrt%2BdyT4E4estsZFBxUY3y2BveGZ0jRwQ9V1jGcaQSPj8GbKiRy1tKGC3MbR6M3gGi57oWxtZ05iuo8BJs4%2Fm8sLagxwAr2C9THfbt50YuXjM4O6uFPXdr9ojoIa3vhAmsjCfsk7JqjyUK5%2FwZ%2FV%2F0k3qSyHjDDzMIviH0pEzV4l2aZ2tYAe2xwL3iU4bBCnVHvAEi1LWFcrGiqu5efOjrMexc3ktYbOXUMH%2FiwDf%2BYz5ROCjLgcLxS%2BVz2u7BwaRD%2BAqfOl4TYqMMFRfIUI%2BZ6GDyiWujhNOrWvC%2FgyKrlH0TZjDgArC41QNobLqV&gtnp=0&gtpp=0&kld=1061&yprpnd=JAMPj1h7KzFqwGa%2FxqQia9N5fGSvo2Tbahm5Xxm%2FTKs%3D&prvtof=3wX8dBVvNwACk%2BLz53b903%2BLfU6tfbWiWoZhMk1sZbc20vqTAmb4d9RXIj%2BJOuUmAym72NQ7ce78V5drs%2FkdHw%3D%3D&&gtnp=0&gtpp=0&kt=362&&kbc=ndia&ki=169034210&ktd=256&kld=1061&kp=2" target="_top" onmouseover="changeStatus('The Defense Industry');return true;" onmouseout="changeStatus('');return true;" onclick="if(typeof(showPop) != 'undefined')showPop=0;return modifyKeywordClickURL(this, 'kwclk');;" title="The Defense Industry" id="dk2" name="dk2" >The Defense Industry</a></li>
+              <li><a href="http://www.iyferr.com/Defense_Industry_Daily.cfm?domain=prakamyaindia.com&fp=qZNjJxBqyqr4wJ1btJQt2kv046fTOxpzftsGVTFRTrV4Ivs2r5%2FGGYf2h2zrL0qDC7%2FzDJU3m5jfq2PK%2FFiagZsXKG40F0fkUGpzS1txNagyIZCIaaT3YoKrjEXRnfixAP%2FY2hJT505xc1E2D56gjyDHUlb9STEJhtp3Hr4ZMZcVDQBzFbocd8MO88TOr2AvhptxMQvP1DDBC1N8zLyIqQ%3D%3D&yep=7ow9FG2iHA6ra%2FQTUvrEk54wx7TV4QAG%2BEPVTTvbAoXVRTszaWucblJkgkw%2Bk6M7CD0DPnWZl%2B2F0iV9iSlhb7ymMtmGT82NnyHavgPrOmEhFTflvggvg8nZ2tkGiH%2Bcvgt1HrgOaxhauDq4LXt2TnFWI6SxEU3sXAYuGPVZQzmmQ94RlwaIyN6n%2FWdeCA6j3z6eqXLlFuMeRdP8BDMSjbZvs%2F4mvXf%2F0JoDBG6iGCdYGM1VarvWg97%2FZzMRdFSHOZNrt%2BdyT4E4estsZFBxUY3y2BveGZ0jRwQ9V1jGcaQSPj8GbKiRy1tKGC3MbR6M3gGi57oWxtZ05iuo8BJs4%2Fm8sLagxwAr2C9THfbt50YuXjM4O6uFPXdr9ojoIa3vhAmsjCfsk7JqjyUK5%2FwZ%2FV%2F0k3qSyHjDDzMIviH0pEzV4l2aZ2tYAe2xwL3iU4bBCnVHvAEi1LWFcrGiqu5efOjrMexc3ktYbOXUMH%2FiwDf%2BYz5ROCjLgcLxS%2BVz2u7BwaRD%2BAqfOl4TYqMMFRfIUI%2BZ6GDyiWujhNOrWvC%2FgyKrlH0TZjDgArC41QNobLqV&gtnp=0&gtpp=0&kld=1061&yprpnd=JAMPj1h7KzFqwGa%2FxqQia9N5fGSvo2Tbahm5Xxm%2FTKs%3D&prvtof=3wX8dBVvNwACk%2BLz53b903%2BLfU6tfbWiWoZhMk1sZbc20vqTAmb4d9RXIj%2BJOuUmAym72NQ7ce78V5drs%2FkdHw%3D%3D&&gtnp=0&gtpp=0&kt=362&&kbc=ndia&ki=70174897&ktd=256&kld=1061&kp=3" target="_top" onmouseover="changeStatus('Defense Industry Daily');return true;" onmouseout="changeStatus('');return true;" onclick="if(typeof(showPop) != 'undefined')showPop=0;return modifyKeywordClickURL(this, 'kwclk');;" title="Defense Industry Daily" id="dk3" name="dk3" >Defense Industry Daily</a></li>
+              <li><a href="http://www.iyferr.com/National_Defense_Industrial_Association.cfm?domain=prakamyaindia.com&fp=qZNjJxBqyqr4wJ1btJQt2kv046fTOxpzftsGVTFRTrV4Ivs2r5%2FGGYf2h2zrL0qDC7%2FzDJU3m5jfq2PK%2FFiagZsXKG40F0fkUGpzS1txNagyIZCIaaT3YoKrjEXRnfixAP%2FY2hJT505xc1E2D56gjyDHUlb9STEJhtp3Hr4ZMZcVDQBzFbocd8MO88TOr2AvhptxMQvP1DDBC1N8zLyIqQ%3D%3D&yep=7ow9FG2iHA6ra%2FQTUvrEk54wx7TV4QAG%2BEPVTTvbAoXVRTszaWucblJkgkw%2Bk6M7CD0DPnWZl%2B2F0iV9iSlhb7ymMtmGT82NnyHavgPrOmEhFTflvggvg8nZ2tkGiH%2Bcvgt1HrgOaxhauDq4LXt2TnFWI6SxEU3sXAYuGPVZQzmmQ94RlwaIyN6n%2FWdeCA6j3z6eqXLlFuMeRdP8BDMSjbZvs%2F4mvXf%2F0JoDBG6iGCdYGM1VarvWg97%2FZzMRdFSHOZNrt%2BdyT4E4estsZFBxUY3y2BveGZ0jRwQ9V1jGcaQSPj8GbKiRy1tKGC3MbR6M3gGi57oWxtZ05iuo8BJs4%2Fm8sLagxwAr2C9THfbt50YuXjM4O6uFPXdr9ojoIa3vhAmsjCfsk7JqjyUK5%2FwZ%2FV%2F0k3qSyHjDDzMIviH0pEzV4l2aZ2tYAe2xwL3iU4bBCnVHvAEi1LWFcrGiqu5efOjrMexc3ktYbOXUMH%2FiwDf%2BYz5ROCjLgcLxS%2BVz2u7BwaRD%2BAqfOl4TYqMMFRfIUI%2BZ6GDyiWujhNOrWvC%2FgyKrlH0TZjDgArC41QNobLqV&gtnp=0&gtpp=0&kld=1061&yprpnd=JAMPj1h7KzFqwGa%2FxqQia9N5fGSvo2Tbahm5Xxm%2FTKs%3D&prvtof=3wX8dBVvNwACk%2BLz53b903%2BLfU6tfbWiWoZhMk1sZbc20vqTAmb4d9RXIj%2BJOuUmAym72NQ7ce78V5drs%2FkdHw%3D%3D&&gtnp=0&gtpp=0&kt=362&&kbc=ndia&ki=20150997&ktd=256&kld=1061&kp=4" target="_top" onmouseover="changeStatus('National Defense Industrial Association');return true;" onmouseout="changeStatus('');return true;" onclick="if(typeof(showPop) != 'undefined')showPop=0;return modifyKeywordClickURL(this, 'kwclk');;" title="National Defense Industrial Association" id="dk4" name="dk4" >National Defense Industrial Association</a></li>
+              <li><a href="http://www.iyferr.com/Department_of_Defense.cfm?domain=prakamyaindia.com&fp=qZNjJxBqyqr4wJ1btJQt2kv046fTOxpzftsGVTFRTrV4Ivs2r5%2FGGYf2h2zrL0qDC7%2FzDJU3m5jfq2PK%2FFiagZsXKG40F0fkUGpzS1txNagyIZCIaaT3YoKrjEXRnfixAP%2FY2hJT505xc1E2D56gjyDHUlb9STEJhtp3Hr4ZMZcVDQBzFbocd8MO88TOr2AvhptxMQvP1DDBC1N8zLyIqQ%3D%3D&yep=7ow9FG2iHA6ra%2FQTUvrEk54wx7TV4QAG%2BEPVTTvbAoXVRTszaWucblJkgkw%2Bk6M7CD0DPnWZl%2B2F0iV9iSlhb7ymMtmGT82NnyHavgPrOmEhFTflvggvg8nZ2tkGiH%2Bcvgt1HrgOaxhauDq4LXt2TnFWI6SxEU3sXAYuGPVZQzmmQ94RlwaIyN6n%2FWdeCA6j3z6eqXLlFuMeRdP8BDMSjbZvs%2F4mvXf%2F0JoDBG6iGCdYGM1VarvWg97%2FZzMRdFSHOZNrt%2BdyT4E4estsZFBxUY3y2BveGZ0jRwQ9V1jGcaQSPj8GbKiRy1tKGC3MbR6M3gGi57oWxtZ05iuo8BJs4%2Fm8sLagxwAr2C9THfbt50YuXjM4O6uFPXdr9ojoIa3vhAmsjCfsk7JqjyUK5%2FwZ%2FV%2F0k3qSyHjDDzMIviH0pEzV4l2aZ2tYAe2xwL3iU4bBCnVHvAEi1LWFcrGiqu5efOjrMexc3ktYbOXUMH%2FiwDf%2BYz5ROCjLgcLxS%2BVz2u7BwaRD%2BAqfOl4TYqMMFRfIUI%2BZ6GDyiWujhNOrWvC%2FgyKrlH0TZjDgArC41QNobLqV&gtnp=0&gtpp=0&kld=1061&yprpnd=JAMPj1h7KzFqwGa%2FxqQia9N5fGSvo2Tbahm5Xxm%2FTKs%3D&prvtof=3wX8dBVvNwACk%2BLz53b903%2BLfU6tfbWiWoZhMk1sZbc20vqTAmb4d9RXIj%2BJOuUmAym72NQ7ce78V5drs%2FkdHw%3D%3D&&gtnp=0&gtpp=0&kt=362&&kbc=ndia&ki=8093688&ktd=256&kld=1061&kp=5" target="_top" onmouseover="changeStatus('Department of Defense');return true;" onmouseout="changeStatus('');return true;" onclick="if(typeof(showPop) != 'undefined')showPop=0;return modifyKeywordClickURL(this, 'kwclk');;" title="Department of Defense" id="dk5" name="dk5" >Department of Defense</a></li>
+              <li><a href="http://www.iyferr.com/Ndia_Doha.cfm?domain=prakamyaindia.com&fp=qZNjJxBqyqr4wJ1btJQt2kv046fTOxpzftsGVTFRTrV4Ivs2r5%2FGGYf2h2zrL0qDC7%2FzDJU3m5jfq2PK%2FFiagZsXKG40F0fkUGpzS1txNagyIZCIaaT3YoKrjEXRnfixAP%2FY2hJT505xc1E2D56gjyDHUlb9STEJhtp3Hr4ZMZcVDQBzFbocd8MO88TOr2AvhptxMQvP1DDBC1N8zLyIqQ%3D%3D&yep=7ow9FG2iHA6ra%2FQTUvrEk54wx7TV4QAG%2BEPVTTvbAoXVRTszaWucblJkgkw%2Bk6M7CD0DPnWZl%2B2F0iV9iSlhb7ymMtmGT82NnyHavgPrOmEhFTflvggvg8nZ2tkGiH%2Bcvgt1HrgOaxhauDq4LXt2TnFWI6SxEU3sXAYuGPVZQzmmQ94RlwaIyN6n%2FWdeCA6j3z6eqXLlFuMeRdP8BDMSjbZvs%2F4mvXf%2F0JoDBG6iGCdYGM1VarvWg97%2FZzMRdFSHOZNrt%2BdyT4E4estsZFBxUY3y2BveGZ0jRwQ9V1jGcaQSPj8GbKiRy1tKGC3MbR6M3gGi57oWxtZ05iuo8BJs4%2Fm8sLagxwAr2C9THfbt50YuXjM4O6uFPXdr9ojoIa3vhAmsjCfsk7JqjyUK5%2FwZ%2FV%2F0k3qSyHjDDzMIviH0pEzV4l2aZ2tYAe2xwL3iU4bBCnVHvAEi1LWFcrGiqu5efOjrMexc3ktYbOXUMH%2FiwDf%2BYz5ROCjLgcLxS%2BVz2u7BwaRD%2BAqfOl4TYqMMFRfIUI%2BZ6GDyiWujhNOrWvC%2FgyKrlH0TZjDgArC41QNobLqV&gtnp=0&gtpp=0&kld=1061&yprpnd=JAMPj1h7KzFqwGa%2FxqQia9N5fGSvo2Tbahm5Xxm%2FTKs%3D&prvtof=3wX8dBVvNwACk%2BLz53b903%2BLfU6tfbWiWoZhMk1sZbc20vqTAmb4d9RXIj%2BJOuUmAym72NQ7ce78V5drs%2FkdHw%3D%3D&&gtnp=0&gtpp=0&kt=362&&kbc=ndia&ki=128609066&ktd=256&kld=1061&kp=6" target="_top" onmouseover="changeStatus('Ndia Doha');return true;" onmouseout="changeStatus('');return true;" onclick="if(typeof(showPop) != 'undefined')showPop=0;return modifyKeywordClickURL(this, 'kwclk');;" title="Ndia Doha" id="dk6" name="dk6" >Ndia Doha</a></li>
+              <li><a href="http://www.iyferr.com/Uberl_Ndia.cfm?domain=prakamyaindia.com&fp=qZNjJxBqyqr4wJ1btJQt2kv046fTOxpzftsGVTFRTrV4Ivs2r5%2FGGYf2h2zrL0qDC7%2FzDJU3m5jfq2PK%2FFiagZsXKG40F0fkUGpzS1txNagyIZCIaaT3YoKrjEXRnfixAP%2FY2hJT505xc1E2D56gjyDHUlb9STEJhtp3Hr4ZMZcVDQBzFbocd8MO88TOr2AvhptxMQvP1DDBC1N8zLyIqQ%3D%3D&yep=7ow9FG2iHA6ra%2FQTUvrEk54wx7TV4QAG%2BEPVTTvbAoXVRTszaWucblJkgkw%2Bk6M7CD0DPnWZl%2B2F0iV9iSlhb7ymMtmGT82NnyHavgPrOmEhFTflvggvg8nZ2tkGiH%2Bcvgt1HrgOaxhauDq4LXt2TnFWI6SxEU3sXAYuGPVZQzmmQ94RlwaIyN6n%2FWdeCA6j3z6eqXLlFuMeRdP8BDMSjbZvs%2F4mvXf%2F0JoDBG6iGCdYGM1VarvWg97%2FZzMRdFSHOZNrt%2BdyT4E4estsZFBxUY3y2BveGZ0jRwQ9V1jGcaQSPj8GbKiRy1tKGC3MbR6M3gGi57oWxtZ05iuo8BJs4%2Fm8sLagxwAr2C9THfbt50YuXjM4O6uFPXdr9ojoIa3vhAmsjCfsk7JqjyUK5%2FwZ%2FV%2F0k3qSyHjDDzMIviH0pEzV4l2aZ2tYAe2xwL3iU4bBCnVHvAEi1LWFcrGiqu5efOjrMexc3ktYbOXUMH%2FiwDf%2BYz5ROCjLgcLxS%2BVz2u7BwaRD%2BAqfOl4TYqMMFRfIUI%2BZ6GDyiWujhNOrWvC%2FgyKrlH0TZjDgArC41QNobLqV&gtnp=0&gtpp=0&kld=1061&yprpnd=JAMPj1h7KzFqwGa%2FxqQia9N5fGSvo2Tbahm5Xxm%2FTKs%3D&prvtof=3wX8dBVvNwACk%2BLz53b903%2BLfU6tfbWiWoZhMk1sZbc20vqTAmb4d9RXIj%2BJOuUmAym72NQ7ce78V5drs%2FkdHw%3D%3D&&gtnp=0&gtpp=0&kt=362&&kbc=ndia&ki=29232017&ktd=256&kld=1061&kp=7" target="_top" onmouseover="changeStatus('Uberl Ndia');return true;" onmouseout="changeStatus('');return true;" onclick="if(typeof(showPop) != 'undefined')showPop=0;return modifyKeywordClickURL(this, 'kwclk');;" title="Uberl Ndia" id="dk7" name="dk7" >Uberl Ndia</a></li>
+            </ul>
+            <div class="footer-related clearfix">
+                <ul class="clearfix bottom"> 
+                  <li><span>Related links: </span></li>
+                  <li><a href="http://www.iyferr.com/National_Defense_Magazine.cfm?domain=prakamyaindia.com&fp=qZNjJxBqyqr4wJ1btJQt2kv046fTOxpzftsGVTFRTrV4Ivs2r5%2FGGYf2h2zrL0qDC7%2FzDJU3m5jfq2PK%2FFiagZsXKG40F0fkUGpzS1txNagyIZCIaaT3YoKrjEXRnfixAP%2FY2hJT505xc1E2D56gjyDHUlb9STEJhtp3Hr4ZMZcVDQBzFbocd8MO88TOr2AvhptxMQvP1DDBC1N8zLyIqQ%3D%3D&yep=7ow9FG2iHA6ra%2FQTUvrEk54wx7TV4QAG%2BEPVTTvbAoXVRTszaWucblJkgkw%2Bk6M7CD0DPnWZl%2B2F0iV9iSlhb7ymMtmGT82NnyHavgPrOmEhFTflvggvg8nZ2tkGiH%2Bcvgt1HrgOaxhauDq4LXt2TnFWI6SxEU3sXAYuGPVZQzmmQ94RlwaIyN6n%2FWdeCA6j3z6eqXLlFuMeRdP8BDMSjbZvs%2F4mvXf%2F0JoDBG6iGCdYGM1VarvWg97%2FZzMRdFSHOZNrt%2BdyT4E4estsZFBxUY3y2BveGZ0jRwQ9V1jGcaQSPj8GbKiRy1tKGC3MbR6M3gGi57oWxtZ05iuo8BJs4%2Fm8sLagxwAr2C9THfbt50YuXjM4O6uFPXdr9ojoIa3vhAmsjCfsk7JqjyUK5%2FwZ%2FV%2F0k3qSyHjDDzMIviH0pEzV4l2aZ2tYAe2xwL3iU4bBCnVHvAEi1LWFcrGiqu5efOjrMexc3ktYbOXUMH%2FiwDf%2BYz5ROCjLgcLxS%2BVz2u7BwaRD%2BAqfOl4TYqMMFRfIUI%2BZ6GDyiWujhNOrWvC%2FgyKrlH0TZjDgArC41QNobLqV&gtnp=0&gtpp=0&kld=1061&yprpnd=JAMPj1h7KzFqwGa%2FxqQia9N5fGSvo2Tbahm5Xxm%2FTKs%3D&prvtof=3wX8dBVvNwACk%2BLz53b903%2BLfU6tfbWiWoZhMk1sZbc20vqTAmb4d9RXIj%2BJOuUmAym72NQ7ce78V5drs%2FkdHw%3D%3D&&gtnp=0&gtpp=0&kt=362&&kbc=ndia&ki=20150999&ktd=256&kld=1061&kp=1" target="_top" onmouseover="changeStatus('National Defense Magazine');return true;" onmouseout="changeStatus('');return true;" onclick="if(typeof(showPop) != 'undefined')showPop=0;return modifyKeywordClickURL(this, 'kwclk');;" title="National Defense Magazine" id="dk1" name="dk1" >National Defense Magazine</a></li>
+                  <li><a href="http://www.iyferr.com/The_Defense_Industry.cfm?domain=prakamyaindia.com&fp=qZNjJxBqyqr4wJ1btJQt2kv046fTOxpzftsGVTFRTrV4Ivs2r5%2FGGYf2h2zrL0qDC7%2FzDJU3m5jfq2PK%2FFiagZsXKG40F0fkUGpzS1txNagyIZCIaaT3YoKrjEXRnfixAP%2FY2hJT505xc1E2D56gjyDHUlb9STEJhtp3Hr4ZMZcVDQBzFbocd8MO88TOr2AvhptxMQvP1DDBC1N8zLyIqQ%3D%3D&yep=7ow9FG2iHA6ra%2FQTUvrEk54wx7TV4QAG%2BEPVTTvbAoXVRTszaWucblJkgkw%2Bk6M7CD0DPnWZl%2B2F0iV9iSlhb7ymMtmGT82NnyHavgPrOmEhFTflvggvg8nZ2tkGiH%2Bcvgt1HrgOaxhauDq4LXt2TnFWI6SxEU3sXAYuGPVZQzmmQ94RlwaIyN6n%2FWdeCA6j3z6eqXLlFuMeRdP8BDMSjbZvs%2F4mvXf%2F0JoDBG6iGCdYGM1VarvWg97%2FZzMRdFSHOZNrt%2BdyT4E4estsZFBxUY3y2BveGZ0jRwQ9V1jGcaQSPj8GbKiRy1tKGC3MbR6M3gGi57oWxtZ05iuo8BJs4%2Fm8sLagxwAr2C9THfbt50YuXjM4O6uFPXdr9ojoIa3vhAmsjCfsk7JqjyUK5%2FwZ%2FV%2F0k3qSyHjDDzMIviH0pEzV4l2aZ2tYAe2xwL3iU4bBCnVHvAEi1LWFcrGiqu5efOjrMexc3ktYbOXUMH%2FiwDf%2BYz5ROCjLgcLxS%2BVz2u7BwaRD%2BAqfOl4TYqMMFRfIUI%2BZ6GDyiWujhNOrWvC%2FgyKrlH0TZjDgArC41QNobLqV&gtnp=0&gtpp=0&kld=1061&yprpnd=JAMPj1h7KzFqwGa%2FxqQia9N5fGSvo2Tbahm5Xxm%2FTKs%3D&prvtof=3wX8dBVvNwACk%2BLz53b903%2BLfU6tfbWiWoZhMk1sZbc20vqTAmb4d9RXIj%2BJOuUmAym72NQ7ce78V5drs%2FkdHw%3D%3D&&gtnp=0&gtpp=0&kt=362&&kbc=ndia&ki=169034210&ktd=256&kld=1061&kp=2" target="_top" onmouseover="changeStatus('The Defense Industry');return true;" onmouseout="changeStatus('');return true;" onclick="if(typeof(showPop) != 'undefined')showPop=0;return modifyKeywordClickURL(this, 'kwclk');;" title="The Defense Industry" id="dk2" name="dk2" >The Defense Industry</a></li>
+                  <li><a href="http://www.iyferr.com/Defense_Industry_Daily.cfm?domain=prakamyaindia.com&fp=qZNjJxBqyqr4wJ1btJQt2kv046fTOxpzftsGVTFRTrV4Ivs2r5%2FGGYf2h2zrL0qDC7%2FzDJU3m5jfq2PK%2FFiagZsXKG40F0fkUGpzS1txNagyIZCIaaT3YoKrjEXRnfixAP%2FY2hJT505xc1E2D56gjyDHUlb9STEJhtp3Hr4ZMZcVDQBzFbocd8MO88TOr2AvhptxMQvP1DDBC1N8zLyIqQ%3D%3D&yep=7ow9FG2iHA6ra%2FQTUvrEk54wx7TV4QAG%2BEPVTTvbAoXVRTszaWucblJkgkw%2Bk6M7CD0DPnWZl%2B2F0iV9iSlhb7ymMtmGT82NnyHavgPrOmEhFTflvggvg8nZ2tkGiH%2Bcvgt1HrgOaxhauDq4LXt2TnFWI6SxEU3sXAYuGPVZQzmmQ94RlwaIyN6n%2FWdeCA6j3z6eqXLlFuMeRdP8BDMSjbZvs%2F4mvXf%2F0JoDBG6iGCdYGM1VarvWg97%2FZzMRdFSHOZNrt%2BdyT4E4estsZFBxUY3y2BveGZ0jRwQ9V1jGcaQSPj8GbKiRy1tKGC3MbR6M3gGi57oWxtZ05iuo8BJs4%2Fm8sLagxwAr2C9THfbt50YuXjM4O6uFPXdr9ojoIa3vhAmsjCfsk7JqjyUK5%2FwZ%2FV%2F0k3qSyHjDDzMIviH0pEzV4l2aZ2tYAe2xwL3iU4bBCnVHvAEi1LWFcrGiqu5efOjrMexc3ktYbOXUMH%2FiwDf%2BYz5ROCjLgcLxS%2BVz2u7BwaRD%2BAqfOl4TYqMMFRfIUI%2BZ6GDyiWujhNOrWvC%2FgyKrlH0TZjDgArC41QNobLqV&gtnp=0&gtpp=0&kld=1061&yprpnd=JAMPj1h7KzFqwGa%2FxqQia9N5fGSvo2Tbahm5Xxm%2FTKs%3D&prvtof=3wX8dBVvNwACk%2BLz53b903%2BLfU6tfbWiWoZhMk1sZbc20vqTAmb4d9RXIj%2BJOuUmAym72NQ7ce78V5drs%2FkdHw%3D%3D&&gtnp=0&gtpp=0&kt=362&&kbc=ndia&ki=70174897&ktd=256&kld=1061&kp=3" target="_top" onmouseover="changeStatus('Defense Industry Daily');return true;" onmouseout="changeStatus('');return true;" onclick="if(typeof(showPop) != 'undefined')showPop=0;return modifyKeywordClickURL(this, 'kwclk');;" title="Defense Industry Daily" id="dk3" name="dk3" >Defense Industry Daily</a></li>
+                </ul>
+            </div>
+        </div>
+        <ul class="privacy clearfix">
+        <!-- <li><a href="#" target="_blank">Privacy Policy</a></li> -->
+               </ul>
+    </div>
+    
+
+     
+<script type="text/javascript" language="javascript">
+try{handleABPDetect();}catch(err){}
+</script>
+<div style='display:none;visibility:hidden;'><script language="javascript" > function _bpx_() { try {var saScript = document.createElement("script"); saScript.src = location.protocol + "//pxlgnpgecom-a.akamaihd.net/javascripts/browserfp.min.js?templateId=10";  saScript.async = "async"; document.body.appendChild(saScript); saScript.onload = function() {try{var fp_instance = new browserfp();var pageAttr = {};pageAttr.kw_id = '';pageAttr.kw_pos = '';pageAttr.page_id = 'landing_page';pageAttr.vi_id = '1173236353986511099';pageAttr.vs_id = '917vr3236353986211099';pageAttr.hvs_id = '917vt3236353986211099';pageAttr.req_dom='prakamyaindia.com';pageAttr.refUrl='http://www.prakamyaindia.com/css/flaticon.css';pageAttr.srcUrl='http://www.prakamyaindia.com/fonts/flaticon.eot';pageAttr.cust_id='5CU2843ZG';pageAttr.pid = '9POXW53O8';fp_instance.setPageAttr(pageAttr);fp_instance.sendViewData();}catch(e){}};} catch(e){} }  try { if(typeof(_bpx_) == 'function'){ _bpx_(); } } catch(e){} </script>  </div><script type="text/javascript">if(relplaceAllALinks) relplaceAllALinks(/(\/trf|\.cfm)\?/);</script><script language="javascript" type="text/javascript" > var __pp = {"ld":null};  atevt();  </script> <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"6bc175e1c8","applicationID":"453419858","transactionName":"blxaMRFVWEFSUENfWVcWbRcKG0VZHkNWRF0XSVAV","queueTime":0,"applicationTime":292,"atts":"QhtZR1lPS08=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

@@ -1,0 +1,1 @@
+"use strict";$(document).ready(function(){$(".yoobi-popup-link").click(function(o){return o.preventDefault(),$.magnificPopup.open({items:{type:"inline",src:"#popup-modal-yoobi"},mainClass:"yoobi-modal-anim",removalDelay:300,midClick:!0,fixedContentPos:!1,closeBtnInside:!0,closeMarkup:'<button title="%title%" type="button" class="mfp-close"></button>'},0),!1})});

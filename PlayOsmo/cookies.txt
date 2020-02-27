@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.playosmo.com	TRUE	/	FALSE	1999999999	__cfduid	dbaf86f9e3021d7c3cea27f914a71772c1570007596
+.zdassets.com	TRUE	/	FALSE	1999999999	__cfduid	dfb31ad92b80b4b3080376e79e99b91f11570007732
+

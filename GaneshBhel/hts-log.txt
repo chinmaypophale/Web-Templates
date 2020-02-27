@@ -1,0 +1,132 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 21 Sep 2019 12:57:40 at http://ganeshbhel.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://ganeshbhel.com/ -O1 "C:\My Web Sites\GaneshBhel" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+13:01:17	Error: 	"Method Not Allowed" (405) at link ganeshbhel.com/xmlrpc.php (from ganeshbhel.com/)
+13:14:22	Error: 	"Not Found" (404) at link ganeshbhel.com/wp-content/plugins/mega-addons-for-visual-composer/fonts/glyphicons-halflings-regular.eot (from ganeshbhel.com/wp-content/plugins/mega-addons-for-visual-composer/css/ihover.css?ver=4.9.11)
+13:14:22	Error: 	"Not Found" (404) at link ganeshbhel.com/wp-content/plugins/mega-addons-for-visual-composer/fonts/glyphicons-halflings-regular.eot? (from ganeshbhel.com/wp-content/plugins/mega-addons-for-visual-composer/css/ihover.css?ver=4.9.11)
+13:14:23	Error: 	"Not Found" (404) at link ganeshbhel.com/wp-content/plugins/mega-addons-for-visual-composer/fonts/glyphicons-halflings-regular.woff2 (from ganeshbhel.com/wp-content/plugins/mega-addons-for-visual-composer/css/ihover.css?ver=4.9.11)
+13:14:23	Error: 	"Not Found" (404) at link ganeshbhel.com/wp-content/plugins/mega-addons-for-visual-composer/fonts/glyphicons-halflings-regular.woff (from ganeshbhel.com/wp-content/plugins/mega-addons-for-visual-composer/css/ihover.css?ver=4.9.11)
+13:14:23	Error: 	"Not Found" (404) at link ganeshbhel.com/wp-content/plugins/mega-addons-for-visual-composer/fonts/glyphicons-halflings-regular.ttf (from ganeshbhel.com/wp-content/plugins/mega-addons-for-visual-composer/css/ihover.css?ver=4.9.11)
+13:14:24	Error: 	"Not Found" (404) at link ganeshbhel.com/wp-content/plugins/mega-addons-for-visual-composer/fonts/glyphicons-halflings-regular.svg (from ganeshbhel.com/wp-content/plugins/mega-addons-for-visual-composer/css/ihover.css?ver=4.9.11)
+13:14:24	Error: 	"Not Found" (404) at link ganeshbhel.com/wp-content/plugins/mega-addons-for-visual-composer/images/bg_header.jpg (from ganeshbhel.com/wp-content/plugins/mega-addons-for-visual-composer/css/ihover.css?ver=4.9.11)
+13:14:24	Warning: 	File not parsed, looks like binary: ganeshbhel.com/wp-content/plugins/revslider/public/assets/css/openhand.cur
+13:14:24	Warning: 	File not parsed, looks like binary: ganeshbhel.com/wp-content/plugins/revslider/public/assets/css/closedhand.cur
+13:14:25	Error: 	"Not Found" (404) at link ganeshbhel.com/wp-content/themes/bridge/css/img/box_image_shadow.png (from ganeshbhel.com/wp-content/themes/bridge/css/stylesheet.min.css?ver=4.9.11)
+13:14:25	Error: 	"Not Found" (404) at link ganeshbhel.com/wp-content/themes/bridge/images/prettyPhoto/facebook/default_thumbnail.gif (from ganeshbhel.com/wp-content/themes/bridge/css/stylesheet.min.css?ver=4.9.11)
+13:14:25	Error: 	"Not Found" (404) at link ganeshbhel.com/wp-content/themes/bridge/css/img/select2-spinner.gif (from ganeshbhel.com/wp-content/themes/bridge/css/woocommerce.min.css?ver=4.9.11)
+13:14:25	Error: 	"Not Found" (404) at link ganeshbhel.com/wp-content/themes/bridge/css/img/select2x2.png (from ganeshbhel.com/wp-content/themes/bridge/css/woocommerce.min.css?ver=4.9.11)
+13:14:26	Error: 	"Not Found" (404) at link ganeshbhel.com/Version/ (from ganeshbhel.com/wp-content/plugins/LayerSlider/static/layerslider/js/greensock.js?ver=1.19.0)
+13:14:26	Warning: 	Moved Permanently for ganeshbhel.com/8x://o1.fz.5d/o0/4/5x-2e-nW/
+13:14:26	Warning: 	Redirected link is identical because of 'URL Hack' option: ganeshbhel.com/8x://o1.fz.5d/o0/4/5x-2e-nW/ and ganeshbhel.com/8x:/o1.fz.5d/o0/4/5x-2e-nW/
+13:14:26	Warning: 	File has moved from ganeshbhel.com/8x://o1.fz.5d/o0/4/5x-2e-nW/ to http://ganeshbhel.com/8x:/o1.fz.5d/o0/4/5x-2e-nW/
+13:14:26	Error: 	"Not Found" (404) at link ganeshbhel.com/5x/eD/ (from ganeshbhel.com/wp-content/plugins/LayerSlider/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=6.7.1)
+13:14:26	Error: 	"Not Found" (404) at link ganeshbhel.com/nS/ (from ganeshbhel.com/wp-content/plugins/LayerSlider/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=6.7.1)
+13:14:26	Warning: 	Retry after error -5 (Unable to get server's address: This is usually a temporary error during hostnam) at link f.pi.5d/js/pj.a8.js (from ganeshbhel.com/wp-content/plugins/LayerSlider/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=6.7.1)
+13:14:26	Error: 	"Not Found" (404) at link ganeshbhel.com/4v/ (from ganeshbhel.com/wp-content/plugins/LayerSlider/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=6.7.1)
+13:14:26	Warning: 	Moved Permanently for ganeshbhel.com/9S://
+13:14:26	Warning: 	Redirected link is identical because of 'URL Hack' option: ganeshbhel.com/9S:// and ganeshbhel.com/9S:/
+13:14:26	Warning: 	File has moved from ganeshbhel.com/9S:// to http://ganeshbhel.com/9S:/
+13:14:26	Warning: 	Moved Permanently for ganeshbhel.com/8x://
+13:14:26	Warning: 	Redirected link is identical because of 'URL Hack' option: ganeshbhel.com/8x:// and ganeshbhel.com/8x:/
+13:14:26	Warning: 	File has moved from ganeshbhel.com/8x:// to http://ganeshbhel.com/8x:/
+13:14:26	Error: 	"Not Found" (404) at link ganeshbhel.com/2K/ (from ganeshbhel.com/wp-content/plugins/LayerSlider/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=6.7.1)
+13:14:26	Warning: 	Moved Permanently for ganeshbhel.com/q6 q7 ix q8 @ 8x://5x.fz.5d/
+13:14:26	Warning: 	File has moved from ganeshbhel.com/q6 q7 ix q8 @ 8x://5x.fz.5d/ to http://ganeshbhel.com/q6%20q7%20ix%20q8%20@%208x:/5x.fz.5d/
+13:14:26	Error: 	"Not Found" (404) at link ganeshbhel.com/1H/5x.1H.js (from ganeshbhel.com/wp-content/plugins/LayerSlider/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=6.7.1)
+13:14:27	Error: 	"Not Found" (404) at link ganeshbhel.com/TweenLite.js (from ganeshbhel.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.4.7.1)
+13:14:27	Error: 	"Not Found" (404) at link ganeshbhel.com/themepunch.revolution.min.js (from ganeshbhel.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.4.7.1)
+13:14:27	Error: 	"Not Found" (404) at link ganeshbhel.com/jquery.themepunch.revolution.min.js (from ganeshbhel.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.4.7.1)
+13:14:27	Error: 	"Not Found" (404) at link ganeshbhel.com/jquery.themepunch.revolution.js (from ganeshbhel.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.4.7.1)
+13:14:27	Error: 	"Not Found" (404) at link ganeshbhel.com/images/transparent.png (from ganeshbhel.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.4.7.1)
+13:14:27	Error: 	"Not Found" (404) at link ganeshbhel.com/assets/transparent.png (from ganeshbhel.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.4.7.1)
+13:14:27	Warning: 	Moved Permanently for ganeshbhel.com/?p=15335
+13:14:27	Warning: 	File has moved from ganeshbhel.com/?p=15335 to http://ganeshbhel.com/about/
+13:14:27	Error: 	"Not Found" (404) at link ganeshbhel.com/product/feed/ (from ganeshbhel.com/product/)
+13:14:27	Warning: 	Moved Permanently for ganeshbhel.com/?p=15299
+13:14:27	Warning: 	File has moved from ganeshbhel.com/?p=15299 to http://ganeshbhel.com/product/
+13:14:27	Warning: 	Moved Permanently for ganeshbhel.com/?p=17155
+13:14:27	Warning: 	File has moved from ganeshbhel.com/?p=17155 to http://ganeshbhel.com/catering-service-provider-in-pune/
+13:14:27	Warning: 	Moved Permanently for ganeshbhel.com/?p=14536
+13:14:27	Warning: 	File has moved from ganeshbhel.com/?p=14536 to http://ganeshbhel.com/stores/
+13:14:27	Error: 	"Not Found" (404) at link ganeshbhel.com/ganeshnagar/ (from ganeshbhel.com/stores/)
+13:19:02	Warning: 	Moved Permanently for ganeshbhel.com/?p=16398
+13:19:02	Warning: 	File has moved from ganeshbhel.com/?p=16398 to http://ganeshbhel.com/blog/
+13:20:16	Warning: 	Moved Permanently for ganeshbhel.com/?p=1452
+13:20:16	Warning: 	File has moved from ganeshbhel.com/?p=1452 to http://ganeshbhel.com/contact/
+13:20:16	Error: 	"Not Found" (404) at link ganeshbhel.com/youtu.be/ (from ganeshbhel.com/wp-content/themes/bridge/js/plugins.js?ver=4.9.11)
+13:20:17	Error: 	"Not Found" (404) at link ganeshbhel.com/mediaelement.min.js (from ganeshbhel.com/wp-content/themes/bridge/js/plugins.js?ver=4.9.11)
+13:20:17	Error: 	"Not Found" (404) at link ganeshbhel.com/mediaelement-and-player.js (from ganeshbhel.com/wp-content/themes/bridge/js/plugins.js?ver=4.9.11)
+13:20:17	Warning: 	Retry after error 500 (Internal Server Error) at link ganeshbhel.com/wp-content/themes/bridge/ (from ganeshbhel.com/wp-content/themes/bridge/js/default_dynamic.js?ver=1537263946)
+13:20:17	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link f.pi.5d/js/pj.a8.js (from ganeshbhel.com/wp-content/plugins/LayerSlider/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=6.7.1)
+13:20:17	Warning: 	Moved Permanently for ganeshbhel.com/?p=15751
+13:20:17	Warning: 	File has moved from ganeshbhel.com/?p=15751 to http://ganeshbhel.com/karvenagar/
+13:20:17	Error: 	"Not Found" (404) at link ganeshbhel.com/wp-content/uploads/2014/06/menu3-3.jpg (from ganeshbhel.com/karvenagar/)
+13:20:22	Warning: 	Moved Permanently for ganeshbhel.com/?p=15878
+13:20:22	Warning: 	File has moved from ganeshbhel.com/?p=15878 to http://ganeshbhel.com/aundh/
+13:20:22	Warning: 	Moved Permanently for ganeshbhel.com/?p=15916
+13:20:22	Warning: 	File has moved from ganeshbhel.com/?p=15916 to http://ganeshbhel.com/pashan/
+13:20:22	Warning: 	Moved Permanently for ganeshbhel.com/?p=15918
+13:20:22	Warning: 	File has moved from ganeshbhel.com/?p=15918 to http://ganeshbhel.com/pimple-saudagar/
+13:20:22	Warning: 	Moved Permanently for ganeshbhel.com/?p=15876
+13:20:22	Warning: 	File has moved from ganeshbhel.com/?p=15876 to http://ganeshbhel.com/nigdi/
+13:20:22	Warning: 	Moved Permanently for ganeshbhel.com/?p=16396
+13:20:22	Warning: 	File has moved from ganeshbhel.com/?p=16396 to http://ganeshbhel.com/bhosari/
+13:20:22	Warning: 	Moved Permanently for ganeshbhel.com/?p=16906
+13:20:22	Warning: 	File has moved from ganeshbhel.com/?p=16906 to http://ganeshbhel.com/nanded-city/
+13:20:22	Warning: 	Moved Permanently for ganeshbhel.com/?p=16908
+13:20:22	Warning: 	File has moved from ganeshbhel.com/?p=16908 to http://ganeshbhel.com/gangabhagyoday/
+13:20:22	Warning: 	Moved Permanently for ganeshbhel.com/?p=15872
+13:20:22	Warning: 	File has moved from ganeshbhel.com/?p=15872 to http://ganeshbhel.com/rahatani/
+13:20:22	Warning: 	Moved Permanently for ganeshbhel.com/?p=15874
+13:20:22	Warning: 	File has moved from ganeshbhel.com/?p=15874 to http://ganeshbhel.com/hinjewadi/
+13:20:22	Warning: 	Moved Permanently for ganeshbhel.com/?p=16792
+13:20:22	Warning: 	File has moved from ganeshbhel.com/?p=16792 to http://ganeshbhel.com/tcs/
+13:20:22	Warning: 	Moved Permanently for ganeshbhel.com/?p=15867
+13:20:22	Warning: 	File has moved from ganeshbhel.com/?p=15867 to http://ganeshbhel.com/talawade/
+13:20:22	Warning: 	Retry after error -4 (No data (connection closed)) at link ganeshbhel.com/wp-content/uploads/2018/07/syntel-menu-01.jpg (from ganeshbhel.com/talawade/)
+13:20:22	Warning: 	Moved Permanently for ganeshbhel.com/?p=16903
+13:20:22	Warning: 	File has moved from ganeshbhel.com/?p=16903 to http://ganeshbhel.com/vishalnagar/
+13:20:22	Warning: 	Moved Permanently for ganeshbhel.com/?p=17414
+13:20:22	Warning: 	File has moved from ganeshbhel.com/?p=17414 to http://ganeshbhel.com/2018/11/28/11-different-names-for-your-favourite-pani-puri-2/
+13:20:22	Warning: 	Retry after error -4 (Connect Error) at link localhost/resto/wp-content/uploads/2014/06/titleimg1-4.jpg (from ganeshbhel.com/2018/11/28/11-different-names-for-your-favourite-pani-puri-2/)
+13:21:02	Warning: 	Moved Permanently for ganeshbhel.com/?p=17418
+13:21:02	Warning: 	File has moved from ganeshbhel.com/?p=17418 to http://ganeshbhel.com/2018/09/14/a-mini-guide-to-indian-street-food-2/
+13:21:15	Warning: 	Moved Permanently for ganeshbhel.com/?p=17421
+13:21:15	Warning: 	File has moved from ganeshbhel.com/?p=17421 to http://ganeshbhel.com/2018/09/20/a-guide-to-product-packaging-for-the-food-industry-2/
+13:21:22	Warning: 	Moved Permanently for ganeshbhel.com/?p=17425
+13:21:22	Warning: 	File has moved from ganeshbhel.com/?p=17425 to http://ganeshbhel.com/2018/11/20/5-ways-to-make-fast-food-healthier/
+13:21:22	Warning: 	Moved Permanently for ganeshbhel.com/?p=16420
+13:21:22	Warning: 	File has moved from ganeshbhel.com/?p=16420 to http://ganeshbhel.com/2018/07/04/different-kinds-of-chaat/
+13:21:22	Warning: 	Moved Permanently for ganeshbhel.com/?p=16422
+13:21:22	Warning: 	File has moved from ganeshbhel.com/?p=16422 to http://ganeshbhel.com/2018/07/18/7-reasons-why-we-all-love-pani-puri/
+13:21:22	Warning: 	Moved Permanently for ganeshbhel.com/?p=16425
+13:21:22	Warning: 	File has moved from ganeshbhel.com/?p=16425 to http://ganeshbhel.com/2018/07/25/5-ways-to-make-healthy-paani-puri/
+13:21:22	Warning: 	Moved Permanently for ganeshbhel.com/?p=16436
+13:21:22	Warning: 	File has moved from ganeshbhel.com/?p=16436 to http://ganeshbhel.com/2018/08/14/how-to-maintain-hygiene-at-a-fast-food-restaurant/
+13:21:22	Warning: 	Moved Permanently for ganeshbhel.com/?p=17241
+13:21:22	Warning: 	File has moved from ganeshbhel.com/?p=17241 to http://ganeshbhel.com/2018/08/21/experiments-with-chaat-at-ganesh-bhel/
+13:21:22	Warning: 	Moved Permanently for ganeshbhel.com/?p=17245
+13:21:22	Warning: 	File has moved from ganeshbhel.com/?p=17245 to http://ganeshbhel.com/2018/08/28/how-to-make-bhel-puri-at-home/
+13:21:22	Error: 	"Not Found" (404) at link ganeshbhel.com/contact/Version/ (from ganeshbhel.com/wp-content/plugins/elementor/assets/lib/swiper/swiper.jquery.min.js?ver=4.4.3)
+13:21:22	Error: 	"Not Found" (404) at link ganeshbhel.com/contact/version/ (from ganeshbhel.com/wp-content/plugins/elementor/assets/lib/swiper/swiper.jquery.min.js?ver=4.4.3)
+13:21:22	Warning: 	Retry after error 500 (Internal Server Error) at link ganeshbhel.com/wp-content/themes/bridge/ (from ganeshbhel.com/wp-content/themes/bridge/js/default_dynamic.js?ver=1537263946)
+13:21:22	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link f.pi.5d/js/pj.a8.js (from ganeshbhel.com/wp-content/plugins/LayerSlider/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=6.7.1)
+13:21:22	Warning: 	Retry after error -4 (Connect Error) at link localhost/resto/wp-content/uploads/2014/06/titleimg1-4.jpg (from ganeshbhel.com/2018/11/28/11-different-names-for-your-favourite-pani-puri-2/)
+13:21:23	Warning: 	Moved Permanently for ganeshbhel.com/?p=17247
+13:21:23	Warning: 	File has moved from ganeshbhel.com/?p=17247 to http://ganeshbhel.com/2018/09/06/the-magic-of-street-food/
+13:21:23	Warning: 	Moved Permanently for ganeshbhel.com/?p=17365
+13:21:23	Warning: 	File has moved from ganeshbhel.com/?p=17365 to http://ganeshbhel.com/2018/09/20/a-guide-to-product-packaging-for-the-food-industry/
+13:21:23	Warning: 	Moved Permanently for ganeshbhel.com/?p=17359
+13:21:23	Warning: 	File has moved from ganeshbhel.com/?p=17359 to http://ganeshbhel.com/2018/09/27/what-are-the-reasons-behind-fast-foods-growing-popularity/
+13:21:23	Warning: 	Moved Permanently for ganeshbhel.com/?p=17367
+13:21:23	Warning: 	File has moved from ganeshbhel.com/?p=17367 to http://ganeshbhel.com/2018/10/04/a-mini-guide-to-indian-street-food/
+13:21:24	Error: 	"Internal Server Error" (500) after 2 retries at link ganeshbhel.com/wp-content/themes/bridge/ (from ganeshbhel.com/wp-content/themes/bridge/js/default_dynamic.js?ver=1537263946)
+13:21:24	Error: 	"Connect Error" (-4) after 2 retries at link localhost/resto/wp-content/uploads/2014/06/titleimg1-4.jpg (from ganeshbhel.com/2018/11/28/11-different-names-for-your-favourite-pani-puri-2/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 23 minutes 44 seconds : 676 links scanned, 596 files written (33853692 bytes overall) [32192298 bytes received at 22606 bytes/sec], 4787426 bytes transferred using HTTP compression in 72 files, ratio 21%, 2.7 requests per connection
+(35 errors, 86 warnings, 0 messages)

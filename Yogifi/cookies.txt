@@ -1,0 +1,8 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.yogifi.in	TRUE	/	FALSE	1999999999	_landing_page	%2F
+www.yogifi.in	TRUE	/	FALSE	1999999999	_shopify_y	987b2959-e13b-4ca6-9417-497961cd1e2f
+fancy.com	TRUE	/	FALSE	1999999999	lang	en-us
+fancy.com	TRUE	/	FALSE	1999999999	fh_seed	12
+.www.yogifi.in	TRUE	/	FALSE	1999999999	__cfduid	d15288aa70a5c3816370db11f7d94f8471570290847
+

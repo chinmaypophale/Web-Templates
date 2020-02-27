@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+codefund.io	TRUE	/	FALSE	1999999999	_code_fund_ads_session	9yjKmtuMKgopU6OpR1vJg5lztNsheH6u9ak8yx9DXvQoh6HkjrcBdTkUZzb75jE0Rw%3D%3D--S6lZ9mP6xyXE0pcp--PARrBJtO98raMN8%2FRqhZKg%3D%3D
+

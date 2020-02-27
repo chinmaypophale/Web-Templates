@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://www.yogifi.in/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://www.yogifi.in/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://www.yogifi.in/collections/all.atom"/>
+  <title>Wellnesys</title>
+  <updated>2019-01-23T16:53:33+05:30</updated>
+  <author>
+    <name>Wellnesys</name>
+  </author>
+  <entry>
+    <id>https://www.yogifi.in/products/2544556736612</id>
+    <published>2019-01-23T16:53:33+05:30</published>
+    <updated>2019-01-23T16:53:33+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://www.yogifi.in/products/yogifi-series-i"/>
+    <title>YogiFi Series 1: Retail @ INR14999. Pre-Order now with INR 2999 down payment. Rest after delivery of product.</title>
+    <s:type>Electronic Gadget</s:type>
+    <s:vendor>Wellnesys</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0216/3726/7556/products/Mat2_1.png?v=1548246852" /></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Wellnesys<br />
+        <strong>Type: </strong>Electronic Gadget<br />
+        <strong>Price: </strong>
+            2999.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Product Specifications:</p>
+<p><strong>1.  YogiFi Series-1 Mat </strong></p>
+<p>-  Eco-Friendly and Non-Toxic Mat Fabric</p>
+<p><strong>-  Size: 170cm x 60cm x 6mm</strong></p>
+<p><strong></strong><strong></strong><strong>- Guided Audio Instructions for Aasanas </strong></p>
+<p><strong>- Real-Time Feedback on Postures </strong></p>
+<p><strong>- Visual LED Indicator </strong></p>
+<p><strong></strong><strong>Connectivity</strong></p>
+<p>- Bluetooth 4.1 and above</p>
+<p>- Wi-Fi 802.11ac (only needed during initial set-up and the package updates)</p>
+<p><strong>Power</strong></p>
+<p>- USB Type-C cable (included)</p>
+<p>- Rechargeable Li-On 3000 mAH (included) </p>
+<p><strong>2. YogiFi Companion App </strong></p>
+<p>-  Available on Google Play Store and AppStore.    </p>
+<p>-  Free Subscription to Beginner Program package (12 months). </p>
+<p>3. Smart Assistant Integration</p>
+<p>-  Google Home for Instant Yoga Sessions and Audio Instructions (Note: Google Home not included in the product. It has to be purchased separately).</p>
+<p>4. Wearables Integration</p>
+<p>- <span> Integration with Apple Watch for Vitals Correlation</span></p>
+<p><strong></strong><strong><em></em></strong>*actual product <em>color and graphics may slightly vary at the time of shipment.</em></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.yogifi.in/products/2544556736612</id>
+      <title>Deep Purple</title>
+      <s:price currency="INR">2999.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.yogifi.in/products/2544556736612</id>
+      <title>Space Grey</title>
+      <s:price currency="INR">2999.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+  </entry>
+</feed>

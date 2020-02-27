@@ -1,0 +1,728 @@
+/*
+https://lidiascode.azurewebsites.net/how-to-create-an-animated-sticky-header/ 
+*/
+html, body { height: 100%; }
+body {font-family: 'Manjari', sans-serif;font-size: 14px;font-weight: 400;}
+p {
+  line-height: 24px;
+}
+
+
+.future-of-yoga { 
+  background: #fbfbfb url(../images/new-images/water-markbg.svg) center center no-repeat !important;
+  background-size: cover;
+}
+h2.lp-head span {
+  font-weight: 600;
+}
+
+
+.font-700{font-weight: 700}
+.font-400{font-weight: 400;}
+.font-100{font-weight: 100;}
+.a_box_btn{border: solid 1px #fff;    color: #fff;    font-size: 20px;}
+section:nth-child(odd){background: #fff}
+section:nth-child(even){background: #F6F6F6}
+.font-size-20{font-size: 16px;}
+.a_box_btn_black{border: solid 1px #777777;    color: #777777;    font-size: 20px;}
+ul.green-list{padding: 0; margin:0;}
+.for-maitain-height{display:flex; justify-content: center; flex-direction: column;}
+.min-hgt-500{min-height: 500px;}
+.min-hgt-300{min-height: 350px;}
+.min-hgt-300 .img-over{top: -187px;}
+.yogiFi .card-img-overlay{    display: flex;    flex-direction: column;    justify-content: center;  }
+.yogiFi .card-title{font-size: 28px;}
+.banner a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url(../images/navbtn.svg) !important;
+}
+iframe{width: 100%;}
+.bg-none{background: none;}
+
+.searchBox input {
+    border-radius: 0pc;
+    background: transparent !important;
+    border: 0px;
+    border-bottom: 1px solid #fff;
+    padding-left: 0;
+    font-size: 14px;
+    box-shadow: none !important;
+    padding-right: 0;
+    color: #fff !important;
+}
+.searchBox input::placeholder {
+  color: #fff;
+}
+.seachbtn {
+  position: relative;
+  height: 30px;
+  width: 30px;
+  background: url(../images/search.html) center center no-repeat;
+  background-size: 20px;
+}
+.seachbtn.toggleshow {
+  background: url(../images/cancel.html) center center no-repeat;
+  background-size: 20px;
+}
+.navbar-expand-lg {
+  border-color: transparent;
+  border-bottom: 0px;
+}
+a {
+  transition: 0.5s;
+}
+.light-red-bg {
+  background-color: #FFF5DE; 
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  font-size: 14px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-weight: 500;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #da2535;
+}
+.banersection {
+    max-width: 800px;
+    margin: 60px auto 0px;
+    overflow: hidden;
+}
+.banersection p {
+  padding-top: 20px;
+  color: #fff;
+  font-weight: 500;
+}
+.banersection .col-sm {
+  position: relative;
+}
+#back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 9999;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 30px;
+    background: #f5f5f5;
+    color: #444;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+}
+#back-to-top:hover {
+    background: #e9ebec;
+}
+#back-to-top.show {
+    opacity: 1;
+}
+.banner {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 500px;
+  padding: 180px 30px 100px;
+  position: relative;
+}
+.banner h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+  position: relative;z-index: 9;
+}
+.banner h1 span.red {
+  color: #B21116;
+  position: relative;
+  padding: 15px;
+}
+.banner h1 span.red:after {
+  position: absolute;
+    content: '';
+    height: 41px;
+    width: 41px;
+    background: #FFF5DE;
+    z-index: -1;
+        left: 8px;
+    top: 17px;
+}
+footer h4{
+ font-size: 25px; color: #000
+}
+footer,  footer a{
+color: #878787
+}
+footer p { 
+  font-size: 14px;  color: #878787
+}
+footer ul {
+  float: left;
+  padding-left: 0px;
+ 
+  list-style: none;
+  line-height: 24px;
+}
+footer ul li a {
+color: #878787;
+   
+  font-size: 16px; 
+}
+footer .col-lg-8 .col-sm:last-child {
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+}
+.copyright {
+  border-color:  rgba(255, 255, 255, 0.15) !important;
+}
+footer h4 {
+  font-size: 15px;
+}
+footer .solcial ul {
+  display: inline-flex;
+  margin-bottom: 0;
+}
+footer .solcial ul li a {
+  
+  float: left;
+  width: 37px;
+  margin-right: 10px;
+  text-align: center;
+  height: 37px;   
+  border-radius: 100%;
+  background: #000; 
+  color: #fff;line-height: 45px;
+}
+footer .solcial ul li:last-child a{ margin-right: 0px;}
+footer .solcial ul li a:hover {
+      
+}
+footer ul li a:hover {
+   color: #333;
+   text-decoration: none !important;
+}
+footer .solcial ul li img {
+    height: 35px;
+    padding: 8px;
+}
+ 
+footer .suscribe.form-inline .form-control {
+  width: 100%;
+  padding-right: 100px;
+  font-size: 12px;
+  box-shadow: none !important;
+}
+footer .suscribe.form-inline .btn {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  font-size: 12px;
+  background: #B21116;
+  border-color: #B21116;
+  text-transform: uppercase;
+  width: 100px;
+  text-align: center; 
+}
+.white-text{color: #fff;}
+.searchBox {
+  position: absolute;
+  width: 300px;
+  left: -250px;
+  top: -5px;
+  display: none;
+  transition: 2s;
+} 
+p{color: #878787}
+/*================== Inner Pages ==================*/
+.inner-banner{min-height: 300px;}
+
+.pink-bg{background: #00C6BB; color: #fff;}
+/*animations custom css*/
+.fdout {
+  position: relative;
+}
+.fdout.slow span {visibility: hidden;}
+.fdout:after {
+  opacity: 0;
+  content: 'APPLIED FOOD RESEARCH CENTRE';
+  width: 100%;
+  left: 0px;
+  height: 70px;
+  position: absolute;
+  top: 0px;
+  transition: 1s;
+}
+.fdout.slow:after {
+  opacity: 1;
+}
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #B21116;
+    border-radius: 100%;
+    background: #fff;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #B21116;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.left-nav, .right-nav{position: absolute;       top: 35%;padding:0 10px;    border: solid 1px #000;} 
+.left-nav i, .right-nav i{font-size: 28px}
+.left-nav{left: 0;}
+.right-nav{right: 0;}
+.owl-theme .owl-dots .owl-dot span{background: none; border:solid 1px rgba(0,0,0,0.8);}
+/*video*/
+.fullsize-video-bg {
+  width: 100%;
+}
+.fullsize-video-bg .inner { display: table; width: 100%; height: 100%; margin: 0 auto; padding: 0; position: relative; z-index: 2;}
+.fullsize-video-bg .inner > .innerMdtxt { text-align: center; display: table-cell; vertical-align: middle; padding: 0 2em; }
+.fullsize-video-bg .inner > .innerMdtxt > h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin: auto;
+  position: relative;
+  margin-top: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.video-hero h1 {
+          color: #fff;
+          font-weight: 700;
+          font-size: 40px;
+          text-transform: uppercase;
+          margin: 0;
+          position: absolute;
+          z-index: 999999;
+          
+          width: 100%;
+          text-align: center;
+          height: 100%;
+          max-height: 100vh;
+              display: flex;
+          flex-direction: column;
+          justify-content: center;
+         }
+
+
+@media (max-width: 991px) {
+  .navbar-brand img {
+    max-width: 70px !important;
+  } 
+  .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff !important;
+  }
+   
+  .navbar-light .navbar-nav .nav-link {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    padding-left: 0px;
+  }
+  .navbar-light .navbar-toggler {
+    background: none; border:0;padding: 0; outline: none !important;
+  }
+  .navbar-light .navbar-toggler .navbar-toggler-icon{color: #fff;}
+  .navbar-expand-lg {
+    position: static !important;
+    background: rgb(45, 45, 45) !important;
+  }
+  .navbar-light .navbar-nav {
+    /*padding-left: 0px !important;*/
+    background: transparent !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+/*@media (max-width: 991px) {}*/
+
+@media (max-width: 991px) {
+.intelignt-fitnes .col-md-12 .hd-1 {
+      position: static !important;
+    transform: none !important;
+    max-width: 100% !important;
+    padding-left: 0px !important;
+}
+.intelignt-fitnes .col-md-12 .hd-2 {
+   position: static !important;
+    max-width: 100% !important;
+    padding-left: 0px !important;
+}
+}
+
+
+@media (min-width: 768px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 10px 15px;
+ 
+
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link:hover, .navbar-expand-lg .navbar-nav .nav-item.active .nav-link {
+  
+    background: rgba(243,243,243,0.5);
+    color: white !important;
+  }
+  
+  .navbar-expand-lg {
+  /*  padding: 5px 0;*/
+    -webkit-transition:  0.3s;
+    -moz-transition:  0.3s;
+    transition:  0.3s;
+  }
+  .navbar-expand-lg .navbar-brand img {
+     -webkit-transition:  0.3s;
+    -moz-transition:  0.3s;
+    transition:  0.3s;
+  }
+  .navbar-expand-lg .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+.navbar-expand-lg.navbar-shrink .top-menu {
+  opacity: 0;
+  display: none;
+}
+  .navbar-expand-lg.navbar-shrink {
+    padding: 0 0;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  .navbar-expand-lg.navbar-shrink .navbar-brand img {
+    width: 100px;
+  }
+
+   .navbar-expand-lg .navbar-brand{ padding: 10px 0;}
+   .img-over{position: absolute;    right: 0;    top: -180px;}
+.img-over.left{left:0; top: -100px;}
+.top-60{top: -50px !important;}
+.yogiFi-work .top-60{top: 20px !important;}
+.top-50{top: -30px !important;}
+.left-500{left:-500px !important;}
+.yogiFi .a_box_btn {width: 50%;    margin: 0 auto;}
+
+ul.green-list li{list-style: none; font-size: 20px;position: relative; padding-right: 30px; margin-bottom: 15px;color: #878787 }
+ul.green-list li:after{position: absolute;    content: '';    background:#00C6BB;    width: 15px;    height: 15px;    right: 5px;    top: 7px;}
+ul.green-list li.font-size-20:after{top: 3px;}
+.left-list ul.green-list li {
+  padding-left: 30px;
+}
+ul.green-list li.font-size-20 {
+  font-size: 16px !important;
+}
+.left-list ul.green-list li:after { right:auto; left: 5px;}
+ul.green-list.left5 li:after{left:5px;}
+ul.green-list.left5 li{padding-left: 30px; padding-right: 0px;}
+.line-right{width: 1px; height: 87%;background:#00C6BB;  position: absolute;    right: 27px;    bottom:-48px; }
+.line-right.left27{left: 27px;bottom:-72px;height: 105%;}
+.left-list .line-right {
+  right: auto;left: 27px;
+}
+.left-bdr:before{background:#9E9E9E;  position: absolute; height: 3px; width: 44%; content: '';  top:40%; }
+.left-0:before{left: 0;}
+.left-bdr.right0:before{right: 0 !important;}
+.left-bdr{position: relative;}
+.how-does ul.green-list li{padding-left: 40px; }
+.how-does ul.green-list li:after{  background:#00C6BB; }
+.how-does .line-right.left27{background:#00C6BB;     height: 95%; bottom: -49px;}
+.inner-page-footer.min-hgt-300 .img-over {    top: -230px;}
+.trainers.how-does .line-right.left27{bottom: -60px !important;}
+.img-bg{background: rgba(155,60,199,0.1); position: absolute; right: -103px; top:50px; width: 100%; height: 332px;}
+.img-bg.left-img-0{left: -103px;}
+.img-in-bg{position: relative; top:-60px; }
+.img-bg.right-img-0 .img-in-bg{left: -100px;}
+.img-bg.left-img-0 .img-in-bg{   right: -319px ;;}
+.font-size-22 {
+    font-size: 22px;
+}
+
+
+
+
+/**/
+h1.lp-head {
+  font-size: 60px;
+  font-weight: 600;
+  color: #4a4a4a;
+}
+h2.lp-head {
+  font-weight: 300;
+  font-size: 36px;
+}
+
+.intelignt-fitnes {
+  /*background: url(../images/new-images/inteligent-fitnes.jpg) center top no-repeat !important;*/
+  min-height: 800px;
+}
+.future-of-yoga .container-fluid { 
+  background: #fff;
+}
+.intelignt-fitnes .col-md-12 {
+  position: relative;
+
+}
+.intelignt-fitnes .col-md-12 .hd-1 {
+  position: absolute;
+  right: 0px;
+  top: 0%;
+  width: 100%;
+  max-width: 500px;
+  transform: translate(0px, 150%);
+}
+
+.intelignt-fitnes .col-md-12 .hd-2 {
+  position: absolute;
+  left: 0px;
+  bottom: 0%;
+  width: 100%;
+  max-width: 700px;
+  transform: translate(0%, -60%);
+}
+/**/
+} 
+@media (min-width: 1367px) and (max-width: 1920px) {
+  .img-bg.left-img-0{left: -250px;}
+  }
+@media (min-width: 1366px) and (max-width: 1366px) {
+  .img-bg.left-img-0{left: -200px;}
+  }
+@media (min-width: 1025px) and (max-width: 1367px) {
+  .img-bg.left-img-0 .img-in-bg {
+    right: -187px !important;
+}
+}
+@media (min-width: 813px) and (max-width: 1024px) {
+  .innerpage .font-size-20 {    font-size: 16px}
+.img-bg.left-img-0 {
+    left: -264px;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 812px) {
+  .yogiFi-mat .img-over.left{    left: -167px !important;}
+  .yogiFi .a_box_btn{width: 100% !important;}
+  .yogiFi .card-title {    font-size: 20px;}
+.left-500 {    left: -642px !important;}
+    .line-right.left27 {      bottom: -49px;    height: 97%;}
+     .img-bg.left-img-0 {    left: -17px;}
+  .img-bg.left-img-0 .img-in-bg {    right: -50px;}.innerpage .font-size-20 {    font-size: 16px;}
+}
+@media (max-width: 767px) {
+  .future-of-yoga .container-fluid {
+    background: #fff;
+  }
+  section img {
+    display: block;
+  }
+  .fullsize-video-bg .inner > .innerMdtxt > h1 {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+.jquery-background-video {
+  /*position: static !important;
+    min-width: 100% !important;
+    min-height: 100% !important;
+    width: 100% !important;
+    height: auto !important;
+    top: 0%;
+    left: 0 !important;
+    -o-object-fit: contain;
+    object-fit: contain;
+    -webkit-transform: none !important;
+    transform: none !important;*/
+
+    position: absolute !important;
+    min-width: auto !important;
+    height: 100vh !important;
+    width: auto !important;
+    top: 50%;
+    -o-object-fit: contain;
+    object-fit: contain;
+    transform: translate(-50%, -50%);
+    left: 50%;
+ }
+ .jquery-background-video-wrapper {
+  height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+}
+.video-hero--content {
+  position: absolute !important;
+    margin: 0 !important;
+    display: flex !important;
+    top: 0 !important;
+    bottom: 0px;
+    width: 100%;
+}
+  .navbar-expand-lg {
+   background: rgb(45, 45, 45) !important;
+    border-bottom: 0px;
+  }
+  .navbar-brand img {
+    max-width: 160px;
+  }
+  .copyright {
+    text-align: left !important;
+  }
+  footer .col-lg-8 .col-sm:last-child {
+    border-right: 0px;
+  } 
+  .img-over img.leftmat{
+    width: auto;
+    height: 197px;
+    max-width: 100%;
+    margin-top: 100px;
+  }
+  .img-over img {
+    width: 100%;
+  }
+  .cusHeght {
+    height: auto !important;
+  }
+  .cntrMb {
+    margin: auto;
+    display: block;
+  }
+  .mb-tophed {
+    position: absolute;
+    top: -291px;
+  }
+  .yogiFi-mat .text-right, .yogiFi-work .text-right, footer .text-right, .with-yogifi .text-right, .its-simple .text-right{
+    text-align: left!important;
+}
+ul.green-list li{list-style: none; font-size: 15px;position: relative; padding-left: 30px; margin-bottom: 15px;color: #878787 }
+ul.green-list li:after{position: absolute;    content: ''; background:#00C6BB;    width: 10px;    height: 10px;left:5px; top: 20%;}
+.a_box_btn_black, .a_box_btn, .font-size-20 {    font-size: 15px;}
+.yogiFi-work .card-body .text-right, .yogiFi-work .card-body .text-left {text-align: center!important;}
+footer ul.float-right{float: none !important; margin:0 auto !important;}
+.yogiFi .col-sm{padding-right: 0 !important; padding-left: 0 !important;}
+.mb-center{text-align: center;}
+.banner{    padding: 103px 0px 30px;    display: flex;
+    flex-direction: column;
+    justify-content: center;}
+.min-hgt-300 {
+    min-height: auto;
+}
+.navbar-light .navbar-nav .nav-link {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.img-bg{    text-align: center;margin-bottom: 25px;}
+/*video*/
+.video-hero--content {
+  position: absolute !important;
+     margin: 90px 0 !important;
+    display: flex !important;
+    top: 0 !important;
+    bottom: 0px;
+    width: 100%;
+}
+.fullsize-video-bg:before, .fullsize-video-bg:after {
+    display: none;
+  }
+   .fullsize-video-bg .inner > .innerMdtxt {
+    display: table-cell;
+  }
+  .fullsize-video-bg .inner > .innerMdtxt > h1, .video-hero h1 {
+    font-size: 24px !important;
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+  .video-hero h1 span {
+    font-size: 16px !important
+  }
+  h2.lp-head {
+    /*text-align: center !important;*/
+    font-size: 24px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+   .fullsize-video-bg .inner > .innerMdtxt > h3 {
+    font-size: 13px !important;
+  }
+  #video-viewport, .fullsize-video-bg, .fullsize-video-bg::before, .fullsize-video-bg::after {
+    min-height: auto;
+  }
+}
+@media (min-width: 734px)  and (max-width: 767px){
+.yogiFi .card-title {
+    font-size: 16px;
+}
+}
+@media (min-width: 568px)  and (max-width: 700px){.yogiFi .a_box_btn{width: 50%; margin:0 auto;}}
+@media (min-width: 568px)  and (max-width: 767px){
+  .img-over{text-align: center; margin-bottom: 20px;}
+    .yogiFi .card {display: block !important; margin-bottom: 25px;}
+    
+    .how-does .img-over img {  width: auto; }
+  }
+@media (max-width: 568px)  {
+  .banner h1{    font-size: 32px;}
+  .banner h3{    font-size: 22px;}
+  section{text-align: left !important; }
+   .yogiFi-mat .text-right, , footer .text-right, .with-yogifi .text-right, .its-simple .text-right{
+    text-align: center!important;}
+    .yogiFi-work .text-right, .yogiFi-work, .how-does {text-align: left!important;}
+    .img-over.left.top-60.left-500{margin-bottom: 20px;    left: -125px;
+    position: relative;}
+}
+#myModal .modal-content{    vertical-align: middle;    margin: 20% 0;      border-radius: 0px !important;}
+#myModal .modal-content .close{position: absolute;    right: 10px;    top: 7px;}
+#myModal .modal-content .form-control{border-radius:0;font-size: 14px;}
+.ct-btn.btn-border{background:#0eb7b2;border: 0;     padding: 10px 50px;    line-height: 33px; margin:0;}
